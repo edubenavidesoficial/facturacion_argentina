@@ -1434,8 +1434,26 @@ namespace Ada369Csharp.Presentacion.VENTAS_MENU_PRINCIPAL
             EventoCobro(e);
         }
 
-       
-       
-       
+        private void btnGenerarQR_Click_1(object sender, EventArgs e)
+        {
+            MercadoPagoService mpService = new MercadoPagoService();
+
+            try
+            {
+                // Descripción del producto y monto
+                string descripcion = "Producto X";
+                decimal monto = 150.75m;
+
+                // Llamar al servicio para crear el pago
+                string qrUrl = mpService.CrearPago(descripcion, monto);
+
+                // Mostrar la URL del QR en un MessageBox
+                MessageBox.Show($"Pago creado. Accede al QR: {qrUrl}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
     }
 }
