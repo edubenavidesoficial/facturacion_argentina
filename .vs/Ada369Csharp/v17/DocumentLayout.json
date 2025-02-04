@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2799FE82-A1E4-477A-B861-EDC78DD6846D}|Ada369Csharp\\Ada369Csharp.csproj|c:\\users\\2304\\onedrive\\documentos\\proyectos\\facturacion_argentina\\ada369csharp\\logica\\mercadopagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2799FE82-A1E4-477A-B861-EDC78DD6846D}|Ada369Csharp\\Ada369Csharp.csproj|solutionrelative:ada369csharp\\logica\\mercadopagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2799FE82-A1E4-477A-B861-EDC78DD6846D}|Ada369Csharp\\Ada369Csharp.csproj|c:\\users\\2304\\onedrive\\documentos\\proyectos\\facturacion_argentina\\ada369csharp\\presentacion\\ventas_menu_principal\\medios_de_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2799FE82-A1E4-477A-B861-EDC78DD6846D}|Ada369Csharp\\Ada369Csharp.csproj|solutionrelative:ada369csharp\\presentacion\\ventas_menu_principal\\medios_de_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2799FE82-A1E4-477A-B861-EDC78DD6846D}|Ada369Csharp\\Ada369Csharp.csproj|c:\\users\\2304\\onedrive\\documentos\\proyectos\\facturacion_argentina\\ada369csharp\\presentacion\\configuracion\\panel_configuraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2799FE82-A1E4-477A-B861-EDC78DD6846D}|Ada369Csharp\\Ada369Csharp.csproj|solutionrelative:ada369csharp\\presentacion\\configuracion\\panel_configuraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2799FE82-A1E4-477A-B861-EDC78DD6846D}|Ada369Csharp\\Ada369Csharp.csproj|C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\ada369csharp\\presentacion\\configuracion\\panel_configuraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2799FE82-A1E4-477A-B861-EDC78DD6846D}|Ada369Csharp\\Ada369Csharp.csproj|solutionrelative:ada369csharp\\presentacion\\configuracion\\panel_configuraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MEDIOS_DE_PAGO.cs",
+              "DocumentMoniker": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\Ada369Csharp\\Presentacion\\VENTAS_MENU_PRINCIPAL\\MEDIOS_DE_PAGO.cs",
+              "RelativeDocumentMoniker": "Ada369Csharp\\Presentacion\\VENTAS_MENU_PRINCIPAL\\MEDIOS_DE_PAGO.cs",
+              "ToolTip": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\Ada369Csharp\\Presentacion\\VENTAS_MENU_PRINCIPAL\\MEDIOS_DE_PAGO.cs",
+              "RelativeToolTip": "Ada369Csharp\\Presentacion\\VENTAS_MENU_PRINCIPAL\\MEDIOS_DE_PAGO.cs",
+              "ViewState": "AgIAAOkEAAAAAAAAAAAtwAYFAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T02:42:48.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MercadoPagoService.cs",
+              "DocumentMoniker": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\Ada369Csharp\\Logica\\MercadoPagoService.cs",
+              "RelativeDocumentMoniker": "Ada369Csharp\\Logica\\MercadoPagoService.cs",
+              "ToolTip": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\Ada369Csharp\\Logica\\MercadoPagoService.cs",
+              "RelativeToolTip": "Ada369Csharp\\Logica\\MercadoPagoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T01:13:55.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PANEL_CONFIGURACIONES.cs",
+              "DocumentMoniker": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\Ada369Csharp\\Presentacion\\CONFIGURACION\\PANEL_CONFIGURACIONES.cs",
+              "RelativeDocumentMoniker": "Ada369Csharp\\Presentacion\\CONFIGURACION\\PANEL_CONFIGURACIONES.cs",
+              "ToolTip": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\Ada369Csharp\\Presentacion\\CONFIGURACION\\PANEL_CONFIGURACIONES.cs",
+              "RelativeToolTip": "Ada369Csharp\\Presentacion\\CONFIGURACION\\PANEL_CONFIGURACIONES.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAmwPoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T21:08:43.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PANEL_CONFIGURACIONES.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\Ada369Csharp\\Presentacion\\CONFIGURACION\\PANEL_CONFIGURACIONES.cs",
+              "RelativeDocumentMoniker": "Ada369Csharp\\Presentacion\\CONFIGURACION\\PANEL_CONFIGURACIONES.cs",
+              "ToolTip": "C:\\Users\\2304\\OneDrive\\Documentos\\Proyectos\\facturacion_argentina\\Ada369Csharp\\Presentacion\\CONFIGURACION\\PANEL_CONFIGURACIONES.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ada369Csharp\\Presentacion\\CONFIGURACION\\PANEL_CONFIGURACIONES.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T21:08:38.037Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

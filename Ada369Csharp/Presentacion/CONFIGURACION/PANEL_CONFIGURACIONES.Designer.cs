@@ -82,9 +82,12 @@
             this.Panel11 = new System.Windows.Forms.Panel();
             this.btnproveedores = new System.Windows.Forms.Button();
             this.Label8 = new System.Windows.Forms.Label();
+            this.btnAlmacenarFirma = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
             this.ToolStrip1 = new System.Windows.Forms.MenuStrip();
             this.btnadministrar = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnMercadoPago = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Panel5.SuspendLayout();
             this.FlowLayoutPanel5.SuspendLayout();
@@ -129,7 +132,7 @@
             this.Panel5.BackColor = System.Drawing.Color.White;
             this.Panel5.Controls.Add(this.FlowLayoutPanel5);
             this.Panel5.Controls.Add(this.Label6);
-            this.Panel5.Location = new System.Drawing.Point(502, 324);
+            this.Panel5.Location = new System.Drawing.Point(571, 324);
             this.Panel5.Name = "Panel5";
             this.Panel5.Size = new System.Drawing.Size(233, 147);
             this.Panel5.TabIndex = 597;
@@ -197,7 +200,7 @@
             this.Panel3.Controls.Add(this.btnEnvios_a_correo);
             this.Panel3.Controls.Add(this.FlowLayoutPanel4);
             this.Panel3.Controls.Add(this.Label38);
-            this.Panel3.Location = new System.Drawing.Point(304, 324);
+            this.Panel3.Location = new System.Drawing.Point(372, 324);
             this.Panel3.Name = "Panel3";
             this.Panel3.Size = new System.Drawing.Size(193, 147);
             this.Panel3.TabIndex = 596;
@@ -281,7 +284,7 @@
             this.panel4.Controls.Add(this.Label30);
             this.panel4.Location = new System.Drawing.Point(20, 324);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(278, 147);
+            this.panel4.Size = new System.Drawing.Size(346, 147);
             this.panel4.TabIndex = 595;
             // 
             // panel12
@@ -387,12 +390,13 @@
             this.Panel38.ForeColor = System.Drawing.Color.Black;
             this.Panel38.Location = new System.Drawing.Point(20, 152);
             this.Panel38.Name = "Panel38";
-            this.Panel38.Size = new System.Drawing.Size(715, 166);
+            this.Panel38.Size = new System.Drawing.Size(784, 166);
             this.Panel38.TabIndex = 593;
             // 
             // FlowLayoutPanel2
             // 
             this.FlowLayoutPanel2.Controls.Add(this.Panel40);
+            this.FlowLayoutPanel2.Controls.Add(this.btnMercadoPago);
             this.FlowLayoutPanel2.ForeColor = System.Drawing.Color.DimGray;
             this.FlowLayoutPanel2.Location = new System.Drawing.Point(7, 34);
             this.FlowLayoutPanel2.Name = "FlowLayoutPanel2";
@@ -454,7 +458,7 @@
             this.panel2.Controls.Add(this.Label1);
             this.panel2.Location = new System.Drawing.Point(20, 19);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(715, 127);
+            this.panel2.Size = new System.Drawing.Size(784, 127);
             this.panel2.TabIndex = 0;
             // 
             // FlowLayoutPanel1
@@ -466,10 +470,12 @@
             this.FlowLayoutPanel1.Controls.Add(this.Panel9);
             this.FlowLayoutPanel1.Controls.Add(this.Panel10);
             this.FlowLayoutPanel1.Controls.Add(this.Panel11);
+            this.FlowLayoutPanel1.Controls.Add(this.btnAlmacenarFirma);
+            this.FlowLayoutPanel1.Controls.Add(this.label10);
             this.FlowLayoutPanel1.ForeColor = System.Drawing.Color.DimGray;
             this.FlowLayoutPanel1.Location = new System.Drawing.Point(17, 44);
             this.FlowLayoutPanel1.Name = "FlowLayoutPanel1";
-            this.FlowLayoutPanel1.Size = new System.Drawing.Size(692, 78);
+            this.FlowLayoutPanel1.Size = new System.Drawing.Size(752, 78);
             this.FlowLayoutPanel1.TabIndex = 603;
             // 
             // Panel16
@@ -744,6 +750,27 @@
             this.Label8.Text = "Proveedores";
             this.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnAlmacenarFirma
+            // 
+            this.btnAlmacenarFirma.BackColor = System.Drawing.Color.Transparent;
+            this.btnAlmacenarFirma.BackgroundImage = global::Ada369Csharp.Properties.Resources.ada369logo;
+            this.btnAlmacenarFirma.Location = new System.Drawing.Point(644, 3);
+            this.btnAlmacenarFirma.Name = "btnAlmacenarFirma";
+            this.btnAlmacenarFirma.Size = new System.Drawing.Size(79, 51);
+            this.btnAlmacenarFirma.TabIndex = 597;
+            this.btnAlmacenarFirma.Text = "Firma Electronica";
+            this.btnAlmacenarFirma.UseVisualStyleBackColor = false;
+            this.btnAlmacenarFirma.Click += new System.EventHandler(this.btnAlmacenarFirma_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(3, 76);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.TabIndex = 598;
+            this.label10.Text = "label10";
+            // 
             // Label1
             // 
             this.Label1.AutoSize = true;
@@ -781,6 +808,16 @@
             this.btnadministrar.Text = "Volver al Administrador";
             this.btnadministrar.Click += new System.EventHandler(this.ToolStripButton22_Click);
             // 
+            // btnMercadoPago
+            // 
+            this.btnMercadoPago.Location = new System.Drawing.Point(124, 3);
+            this.btnMercadoPago.Name = "btnMercadoPago";
+            this.btnMercadoPago.Size = new System.Drawing.Size(115, 51);
+            this.btnMercadoPago.TabIndex = 591;
+            this.btnMercadoPago.Text = "Mercado Pago";
+            this.btnMercadoPago.UseVisualStyleBackColor = true;
+            this.btnMercadoPago.Click += new System.EventHandler(this.btnMercadoPago_Click);
+            // 
             // PANEL_CONFIGURACIONES
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -817,6 +854,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.FlowLayoutPanel1.ResumeLayout(false);
+            this.FlowLayoutPanel1.PerformLayout();
             this.Panel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Logo_empresa)).EndInit();
             this.Panel35.ResumeLayout(false);
@@ -889,5 +927,8 @@
         internal System.Windows.Forms.Panel panel12;
         internal System.Windows.Forms.Button btnBalanza;
         internal System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnAlmacenarFirma;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnMercadoPago;
     }
 }
